@@ -1,12 +1,27 @@
 # publishing-native-apps
 
-### Creating Promotional Material
+## Publishing 
 
-#### iOS
+### iOS
 
-##### Generating Icons:
+#### Creating your build 
 
-##### Generating Preview Screenshots:
+1. In xCode, select 'Generic iOS Device' as the device target (i.e., where you'd typically select your simulator device).
+2. If using react-native, select the menu `Product -> Scheme -> Edit Scheme`. Change `Build Configuration` to `Release`. 
+3. If you are updating your app, change the `Version` and `Build` under the `General` tab with your target selected.
+4. With your app target selected, select `Build Settings` and search for `Provisioning Profile`. Change `Release` to your distribution provisioning profile.
+4. Under the `Product` menu, select `Archive`. Make a coffee. 
+5. Select `Upload to App Store`.  Drink your coffee.
+
+The build should appear in iTunes connect within a few minutes (Let's be optimistic).
+
+## Creating Promotional Material
+
+### iOS
+
+#### Generating Icons:
+
+#### Generating Preview Screenshots:
 
 Apple requires that you provide screenshots of your app at various sizes to match the corresponding Apple devices. This is a pain in the ass. Guide:
 
