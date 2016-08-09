@@ -17,14 +17,17 @@ The build should appear in iTunes connect within a few minutes (Let's be optimis
 
 ## Creating Promotional Material
 
-### iOS
+### Android 
 
 #### Generating Icons:
 
-Android:
-
-1. In android studio go to: __File > New > Image Assets > select launcher icon > choose image file
+1. In android studio go to: __File > New > Image Assets > select launcher icon > choose image file__
 2. It will automatically resize your image. OMG amazing.
+
+
+### iOS
+
+#### Generating Icons:
 
 #### Generating Preview Screenshots:
 
