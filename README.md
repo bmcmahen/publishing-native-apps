@@ -2,6 +2,11 @@
 
 ## Publishing 
 
+### Android
+
+#### Creating your build
+1. https://facebook.github.io/react-native/docs/signed-apk-android.html
+
 ### iOS
 
 #### Creating your build 
