@@ -5,9 +5,14 @@
 ### Android
 
 #### Creating your build
+
+If you are updating your app, you'll need to increment the build & release number: You can 
+do that by changing `versionCode` and `versionName` in `app/build.gradle`.
+
 1. https://facebook.github.io/react-native/docs/signed-apk-android.html
 2. `cd android && ./gradlew assembleRelease`
-3. if this fails while running node, run the previous command with the -info argument. Copy down the node command that is being run, and just run it yourself. Repeat step 2. 
+3. if this fails while running node, restart your computer.
+4. the generated apk file can be found at:__android/app/build/outputs/apk/app-release.apk__
 
 ### iOS
 
