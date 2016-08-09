@@ -6,6 +6,8 @@
 
 #### Creating your build
 1. https://facebook.github.io/react-native/docs/signed-apk-android.html
+2. `cd android && ./gradlew assembleRelease`
+3. if this fails while running node, run the previous command with the -info argument. Copy down the node command that is being run, and just run it yourself. Repeat step 2. 
 
 ### iOS
 
