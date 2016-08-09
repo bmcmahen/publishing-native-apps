@@ -21,6 +21,11 @@ The build should appear in iTunes connect within a few minutes (Let's be optimis
 
 #### Generating Icons:
 
+Android:
+
+1. In android studio go to: __File > New > Image Assets > select launcher icon > choose image file
+2. It will automatically resize your image. OMG amazing.
+
 #### Generating Preview Screenshots:
 
 Apple requires that you provide screenshots of your app at various sizes to match the corresponding Apple devices. This is a pain in the ass. Guide:
